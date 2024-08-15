@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const HeroSection = () => {
   return (
-    <div className="w-full max-w-[1500px] md:p-24 p-10">
+    <div className="w-full max-w-[1500px] md:px-20 p-10">
       <NavBar />
       <div className="flex justify-between items-center  gap-20 lg:flex-row flex-col-reverse lg:py-44 py-20">
         <div className="relative">

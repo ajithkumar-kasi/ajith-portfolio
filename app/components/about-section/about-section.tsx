@@ -1,12 +1,13 @@
 import { motion } from "framer-motion";
 import React from "react";
 import Person from "../../images.jpeg";
+import MyPhoto from "../../assets/ak-image.jpg";
 import Image from "next/image";
 
 export const AboutSection = () => {
   const text = "Framer Motion is a really cool tool".split(" ");
   return (
-    <div className="flex flex-col gap-4 items-center md:p-24 p-10">
+    <div className="flex flex-col gap-4 items-center md:p-24 p-10" id="About">
       {/* {text.map((el, i) => (
         <motion.span
           initial={{ opacity: 0 }}
@@ -27,9 +28,9 @@ export const AboutSection = () => {
         <div className="relative">
           <div className="h-60 bg-[#4b4b4b] w-60 md:w-[400px] md:h-[400px] "></div>
           <Image
-            src={Person}
+            src={MyPhoto}
             alt={""}
-            className="absolute left-10 -top-10 h-60 w-60 md:w-[400px] md:h-[400px]"
+            className="absolute left-10 -top-10 h-60 w-60 md:w-[400px] md:h-[400px] object-cover object-top"
           />
         </div>
         <div className="lg:w-[60%] md:w-full flex flex-col gap-5 justify-center">

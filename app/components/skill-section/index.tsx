@@ -15,9 +15,13 @@ export const SkilsSection = () => {
     { src: "materialui", title: "Material UI" },
     { src: "tailwindcss", title: "Tailwind CSS" },
     { src: "framermotion", title: "Framer" },
+    { src: "nextjs", title: "Next.js" },
   ];
   return (
-    <div className="h-full relative min-h-screen w-full skill-conatiner md:pt-20 pt-10">
+    <div
+      className="h-full relative min-h-screen w-full skill-conatiner md:pt-20 pt-10"
+      id="Skills"
+    >
       <div className="md:text-3xl lg:text-4xl font-semibold  text-center md:px-20 text-xl">
         What I Bring to the Table
       </div>
@@ -33,7 +37,7 @@ export const SkilsSection = () => {
                   icon={`devicon:${dt.src}`}
                   className="text-8xl absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%]"
                 />
-                <div className="absolute hidden group-hover:block duration-300 delay-150  transition linear bottom-0 left-[50%] group-hover:bg-[#000000b5] w-full text-white -translate-x-[50%] text-center h-10 pt-2">
+                <div className="absolute hidden group-hover:block duration-300 delay-150  transition linear bottom-0 left-[50%] group-hover:bg-[#000000b5] w-full text-white -translate-x-[50%] text-center h-8 md:h-10 pt-1 md:pt-2">
                   {dt.title}
                 </div>
               </div>
