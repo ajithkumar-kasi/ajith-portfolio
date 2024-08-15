@@ -21,7 +21,7 @@ export const AboutSection = () => {
         </motion.span>
       ))} */}
       <div className="md:text-5xl lg:text-[120px] font-semibold  text-3xl">
-        About Me
+        About Mee
       </div>
       <div className="flex justify-between md:items-center gap-10 md:gap-20 lg:flex-row flex-col py-20">
         <div className="relative">
