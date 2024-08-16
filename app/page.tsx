@@ -7,7 +7,7 @@ import { Contact } from "./components/contact-section";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between text-black dark:text-white">
+    <main className="flex min-h-screen flex-col items-center justify-between text-black ">
       <HeroSection />
       <AboutSection />
       <SkilsSection />
