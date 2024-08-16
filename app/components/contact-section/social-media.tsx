@@ -33,7 +33,12 @@ export const SocialMedia = () => {
       {socialMedia.map((dt) => {
         return (
           <a key={dt.id} href={dt.url} target="_blank">
-            <Icon icon={dt.src} width={20} height={20} />
+            <Icon
+              icon={dt.src}
+              width={20}
+              height={20}
+              className="hover:scale-150"
+            />
           </a>
         );
       })}

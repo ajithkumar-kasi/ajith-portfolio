@@ -1,12 +1,11 @@
 import React from "react";
-import Person from "../../images.jpeg";
 import MyPhoto from "../../assets/ak-image.jpg";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import AnimatedTextCharacter from "../animated-text";
+import { Link } from "react-scroll";
 
 export const AboutSection = () => {
-  const text = "Framer Motion is a really cool tool".split(" ");
   return (
     <motion.div
       initial={{ opacity: 0, y: 100 }}
@@ -42,11 +41,14 @@ export const AboutSection = () => {
               of the curve.
             </div>
             <div>
-              <a href={"../../images.jpeg"} download>
-                <button type="button" className="download">
-                  Download CV
-                </button>
-              </a>
+              <Link
+                to="Contact"
+                smooth={true}
+                type="button"
+                className="download"
+              >
+                Contact Me
+              </Link>
             </div>
           </div>
         </div>

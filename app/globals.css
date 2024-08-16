@@ -135,3 +135,6 @@ background-image: linear-gradient(15deg, #D9AFD9 0%, #97D9E1 100%);
   padding: 10px 0;
   list-style: none;
 }
+#About{
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+}

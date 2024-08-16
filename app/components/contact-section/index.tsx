@@ -6,12 +6,12 @@ import AkLogo from "../../assets/ak-logo.gif";
 export const Contact = () => {
   return (
     <div
-      className="border-t w-full md:px-10 px-5 lg:px-20 py-2 flex justify-between items-center"
+      className="border-t w-full md:px-10 px-5 lg:px-20 py-2 flex justify-between items-center bg-white"
       id="Contact"
     >
       <Image
         src={AkLogo}
-        alt={""}
+        alt={"Logo"}
         className="w-20 h-20 md:w-28 md-h-28 rounded-full"
       />
 
