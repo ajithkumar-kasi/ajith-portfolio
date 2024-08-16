@@ -15,20 +15,6 @@ export const AboutSection = () => {
       viewport={{ once: true }}
     >
       <div className="flex flex-col gap-4 items-center md:p-24 p-10" id="About">
-        {/* {text.map((el, i) => (
-        <motion.span
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{
-            duration: 0.25,
-            delay: i / 10,
-          }}
-          key={i}
-        >
-          {el}{" "}
-        </motion.span>
-      ))} */}
-
         <div className="md:text-6xl font-bold  text-3xl">
           {" "}
           <AnimatedTextCharacter text="About Me" />
