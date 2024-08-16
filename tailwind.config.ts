@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-import akdji from "./app/images.jpeg";
 
 const config: Config = {
   content: [
