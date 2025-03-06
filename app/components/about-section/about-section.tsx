@@ -24,7 +24,7 @@ export const AboutSection = () => {
             <Image
               src={MyPhoto}
               alt={""}
-              className="absolute left-10 -top-10 h-60 w-60 md:w-[400px] md:h-[400px] object-cover object-top"
+              className="absolute left-10 -top-10 h-60 w-60 md:w-[400px] md:h-[400px] object-cover object-bottom"
             />
           </div>
           <div className="lg:w-[60%] md:w-full flex flex-col gap-5 justify-center">
